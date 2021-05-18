@@ -1,0 +1,22 @@
+{{#each this}}
+<li>
+    <img src={{image}} alt={{title}}>
+    <h2>
+        {{title}}: {{seria}}
+    </h2>
+    <p>
+        {{category}}
+    </p>
+    <p>
+        {{description}}
+    </p>
+    <div>
+        <h3>
+            {{author.name}}
+        </h3>
+        <p>
+            {{author.country}}: {{author.city}}
+        </p>
+    </div>
+</li>
+{{/each}}
